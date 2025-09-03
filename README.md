@@ -110,8 +110,8 @@ All folders/modules are modular and reusable. The repo is well-structured for a 
 
 4. **Plan and Apply**:
    ```
-   terraform plan -out=plan.tfout
-   terraform apply "plan.tfout"
+   terraform plan 
+   terraform apply 
    ```
 
 5. **Access**:

@@ -1,0 +1,28 @@
+# --- Terraform local working data ---
+/.terraform/
+**/.terraform/*                # provider & module downloads
+.terraform.tfstate.lock.info   # state-lock file
+
+# --- State files (often contain secrets) ---
+*.tfstate
+*.tfstate.*
+
+# --- Variable files that may hold sensitive data ---
+#*.tfvars
+#*.tfvars.json
+
+# --- Saved plans & overrides (machine-specific) ---
+*.tfplan
+override.tf*
+*_override.tf*
+
+# --- CLI / user config ---
+.terraformrc
+terraform.rc
+
+# --- Crash logs ---
+crash.log
+crash.*.log
+
+# key/pem
+*.pem

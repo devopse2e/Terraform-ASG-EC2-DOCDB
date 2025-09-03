@@ -117,7 +117,7 @@ All folders/modules are modular and reusable. The repo is well-structured for a 
 5. **Access**:
    - Jumpbox: SSH to public IP for access to private resources.
    - SSH key: update tfvars with local path of key file.
-   - App: Use ALB DNS for frontend access.
+   - App: Use `ALB DNS` for frontend access.
    - Destroy: `terraform destroy` to clean up.
 
 ## Contributing
